@@ -1,41 +1,40 @@
-import React from 'react'
+
 
 export const navLinks = [
     {
-        id:1,
+        id: 1,
         url: '#',
         label: 'Home'
     },
     {
-        id:2,
+        id: 2,
         url: '#',
         label: 'Features',
     },
     {
-        id:3,   
+        id: 3,
         url: '#',
         label: 'Services',
     },
     {
-        id:4,
+        id: 4,
         url: '#',
         label: 'Review',
     },
     {
-        id:5,   
+        id: 5,
         url: '#',
         label: 'Team',
     },
     {
-        id:6,
+        id: 6,
         url: '#',
         label: 'Pricing',
     },
     {
-        id:7,   
+        id: 7,
         url: '#',
         label: 'Contact',
     }
 
-  
 ]

@@ -6,13 +6,13 @@ import { FaStar } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className='relative w-full h-[110vh] sm:h-screen bg-[url("/images/bg.png")] bg-cover bg-center flex justify-center flex-col'>
-      <div className="w-[90] md:w-[80%] mx-auto items-center grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* text content */}
         <div>
           <p className="text-sm sm:text-base md:text-xl font-bold text-white">
             Make the smartest investment
           </p>
-          <h1 className="text-2xl lg:text-3xl md:text-xl font-bold text-white leading-[2.5rem] md:leading-[3.5rem]">
+          <h1 className="text-2xl lg:text-4xl md:text-3xl mt-6  mb-6font-bold text-white leading-[2.5rem] md:leading-[3.5rem]">
             Discover the world of crypto with {""}{" "}
             <span className="text-red-700">Techs</span>
           </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             consequatur quia esse consequuntur unde placeat est deleniti!
           </p>
           {/* Rating */}
-          <div className=" flex sm:flex-row flex-col items-center sm:space-x-10 mt-6">
+          <div className=" flex sm:flex-row flex-col sm:items-center sm:space-x-10 mt-6">
             <div className="flex items-center space-x-4">
               <Image
                 src="/images/google.png"
